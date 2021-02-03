@@ -1989,7 +1989,30 @@ pre code {
 .table-responsive > .table-bordered {
   border: 0;
 }
-
+.expand-button {
+  position: relative;
+}
+.expand-button:before {
+  content: '▲';
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: 0;
+  bottom: 0;
+  left: 8px;
+  opacity: .5;
+}
+tr.collapsed .expand-button:before {
+  content: '▼';
+}
+tr:hover .expand-button:before {
+  opacity: 1;
+}
 .form-control {
   display: block;
   width: 100%;
