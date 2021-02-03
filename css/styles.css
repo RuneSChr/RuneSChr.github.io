@@ -1689,6 +1689,7 @@ pre code {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 0.125rem solid #dee2e6;
+  border-top-color: transparent;
 }
 .table thead th {
   vertical-align: bottom;
