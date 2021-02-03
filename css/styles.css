@@ -1699,7 +1699,7 @@ pre code {
   border-top-color: transparent;
 }
 .table tbody + tbody {
-  border-top: 0.25rem solid #eff2f5;
+  border-top: 0.25rem solid #dee2e6;
 }
 
 .table-sm th,
