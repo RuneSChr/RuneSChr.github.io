@@ -1694,6 +1694,9 @@ pre code {
   vertical-align: bottom;
   border-bottom: 0.25rem solid #dee2e6;
 }
+.hide-table-padding-top td {
+  border-top-color: transparent;
+}
 .table tbody + tbody {
   border-top: 0.25rem solid #dee2e6;
 }
